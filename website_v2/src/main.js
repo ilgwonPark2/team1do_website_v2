@@ -8,6 +8,8 @@ Vue.config.productionTip = false
 import '../static/style/bootstrap.min.css'
 import '../static/scripts/jquery-3.1.1.js'
 import '../static/scripts/bootstrap.min.js'
+import '../static/scripts/axios.min.js'
+import '../static/scripts/bluebird.min.js'
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
