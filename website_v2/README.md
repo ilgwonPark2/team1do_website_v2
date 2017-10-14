@@ -1,6 +1,6 @@
 # website_v2
 
-> team1do_website_v2
+> A Vue.js project
 
 ## Build Setup
 
