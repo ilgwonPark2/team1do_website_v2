@@ -1,5 +1,16 @@
-button {
-  border:none; background-color:transparent;
+.button {
+  border:none;
+  background-color:transparent;
+  color:black;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  /*background: #06D85F;*/
+  text-decoration: none;
+  transform: scale(1.3);
 }
 .bus_container {
   vertical-align: text-bottom;
@@ -86,95 +97,131 @@ button {
   height: auto;
   padding-left: 0px;
 }
-
-/*Pervious design*/
-/*.img {
-  position: relative;
-  background-image: url(/assets/images/main_bus_stop.png);
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: initial;
-  background-size: cover;
-  will-change: transform, top;
-  height: 20vh;
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
   left: 0;
-  background-size: 100%!important;
-  background-position: 5% 50%!important;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
 }
 
-.img1 {
+.popup {
+  margin: 30vh auto;
+  padding: 1.5vh;
+  background: #323232;
+  border-radius: 35px;
+  width: 80%;
+  height: 40%;
   position: relative;
-  background-image: url(/assets/images/approaching.png);
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: initial;
-  background-size: cover;
-  will-change: transform, top;
-  height: 20vh;
-  left: 0;
-  background-size: 100%!important;
-  background-position: 5% 50%!important;
+  transition: all 2s ease-in-out;
 }
 
-.img2 {
-  position: relative;
-  background-image: url(/assets/images/previous_bus_stop.png);
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: initial;
-  background-size: cover;
-  will-change: transform, top;
-  height: 20vh;
-  left: 0;
-  background-size: 100%!important;
-  background-position: 5% 50%!important;
-}
-
-.img3 {
-  position: relative;
-  background-image: url(/assets/images/estimated_arriving_time.png);
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: initial;
-  background-size: cover;
-  will-change: transform, top;
-  height: 300px;
-  left: 0;
-  background-size: 100%!important;
-  background-position: 5% 50%!important;
-}
-
-.img .content {
-  position: absolute;
-  top: 48%;
-  left: 10%;
-  font-size: 5rem;
-  color: white;
-  z-index: 2;
-  text-align: center;
-}
-
-.frame_border {
-  border: 2px solid darkgrey;
-  border-radius: 5px;
-  height: 370px;
-}
-
-.bus_num {
-  display: inline-grid;
-  align-items: center;
-  justify-content: center;
-  height: 350px;
+/*.popup a {
+  margin-top: 0;
+  color: black;
+  font-family: Tahoma, Arial, sans-serif;
 }*/
+.popup .confirm {
+  transition: all 200ms;
+}
+.popup .confirm:hover {
+  color: #06D85F;
+  transform:scale(1.2);
+  text-decoration: none;
+}
+.popup .cancel {
+  transition: all 200ms;
+}
+.popup .cancel:hover {
+  color: #06D85F;
+  transform:scale(1.2);
+  text-decoration: none;
+}
+.popup_container_border_top{
+  border: 1px solid #323232;
+  background-color: #7ca822;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  width:100%;
+  height:25vh;
+  padding-top:6vh;
+  padding-right:2px;
+}
+.popup_container_bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5vh;
+  border: 2px solid #323232;
+  background-color: white;
+  width:100%;
+  height:13vh;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.popup_container_bottom >div > a{
+  font-size:5em;
+  color:323232;
+  font-weight: 600;
+  /*padding-left: 6vh;*/
+}
+
+.popup_container_bottom .popup_container_bottom_left{
+  display: flex;
+  align-items: center;
+  border-right: 4px solid #323232;
+    height: 100%;
+}
+.popup_container_bottom .popup_container_bottom_right{
+  display: flex;
+  align-items: center;
+  border-left: 4px solid #323232;
+    height: 100%;
+}
+.popup_container_top_top{
+  padding-left: 3.5vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+}
+.popup_container_top_top > div> h2{
+  font-size:8em;
+  color:white;
+  font-weight: 600;
+}
+.popup_container_top_top > div> h5{
+  font-size:2.5em;
+  line-height: 3.5vh;
+  color:white;
+}
+.popup_container_top_bottom{
+  padding-left: 3.5vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+}
+.popup_container_top_bottom > div >h5{
+  font-size:2.8em;
+  color:white;
+  padding-top: 1.5vh;
+}
+.popup .content {
+  max-height: 80%;
+  overflow: auto;
+}
+/*responsive design*/
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
