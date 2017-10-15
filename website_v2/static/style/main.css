@@ -1,5 +1,56 @@
 .bus_container {
-  padding-top: 10vh;
+  vertical-align: text-bottom;
+  height: 15vh;
+  background-color: #4d4a4b;
+  color:black;
+  font-size: 3.5em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+}
+.bus_container_background_general {
+  border: 2px solid white;
+  border-radius:15px;
+  background-color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+}
+.bus_container_background_bus {
+  background-position: right;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-image: url("../../static/image/background_bus.png")
+}
+.bus_container_border_general {
+  border: 2px solid;
+  border-radius:15px;
+  width:80%;
+  height:12vh;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.bus_container_border_town {
+  border: 2px solid #7ca822;
+  background-color: #7ca822;
+}
+.bus_container_border_blue {
+  border: 2px solid #1b66d4;
+  background-color: #1b66d4;
+}
+.bus_container_border_green {
+  border: 2px solid #4b963c;
+  background-color: #4b963c;
+}
+.bus_container_border_red {
+  border: 2px solid #b92d3a;
+  background-color: #b92d3a;
 }
 .bus_container_content {
   visibility: middle;
@@ -7,7 +58,7 @@
   line-height: 13vh;
 }
 .bus_stop_header{
-  background-color: #202328;
+  background-color: #323232;
   color : white;
 }
 #bus_stop_id{
@@ -34,7 +85,7 @@
 }
 
 /*Pervious design*/
-.img {
+/*.img {
   position: relative;
   background-image: url(/assets/images/main_bus_stop.png);
   background-repeat-x: no-repeat;
@@ -123,4 +174,4 @@
   align-items: center;
   justify-content: center;
   height: 350px;
-}
+}*/
