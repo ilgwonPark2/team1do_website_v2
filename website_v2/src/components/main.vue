@@ -17,7 +17,7 @@
       <div class="row bus_container">
         <div class="col-sm-6 bus_container_border_general bus_container_border_town">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            마을 01
+            <button type="button" name="button" >마을 01</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             14분
@@ -25,7 +25,7 @@
         </div>
         <div class="col-sm-6 bus_container_border_general bus_container_border_blue">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            105
+            <button type="button" name="button" >105</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             41분
@@ -35,7 +35,7 @@
       <div class="row bus_container">
         <div class="col-sm-6 bus_container_border_general bus_container_border_town">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            마을 02
+            <button type="button" name="button" >마을 02</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             27분
@@ -43,7 +43,7 @@
         </div>
         <div class="col-sm-6 bus_container_border_general bus_container_border_blue">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            106
+            <button type="button" name="button" >106</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             15분
@@ -53,7 +53,7 @@
       <div class="row bus_container">
         <div class="col-sm-6 bus_container_border_general bus_container_border_blue">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            101
+            <button type="button" name="button" >101</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             38분
@@ -61,7 +61,7 @@
         </div>
         <div class="col-sm-6 bus_container_border_general bus_container_border_green">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            1001
+            <button type="button" name="button" >1001</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             19분
@@ -71,7 +71,7 @@
       <div class="row bus_container">
         <div class="col-sm-6 bus_container_border_general bus_container_border_blue">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            102
+            <button type="button" name="button" >102</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             7분
@@ -79,7 +79,7 @@
         </div>
         <div class="col-sm-6 bus_container_border_general bus_container_border_green">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            1002
+            <button type="button" name="button" >1002</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             24분
@@ -89,7 +89,7 @@
       <div class="row bus_container">
         <div class="col-sm-6 bus_container_border_general bus_container_border_blue">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            103
+            <button type="button" name="button" >103</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             54분
@@ -97,7 +97,7 @@
         </div>
         <div class="col-sm-6 bus_container_border_general bus_container_border_green">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            1003
+            <button type="button" name="button" >1003</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             31분
@@ -107,7 +107,7 @@
       <div class="row bus_container">
         <div class="col-sm-6 bus_container_border_general bus_container_border_blue">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            104
+            <button type="button" name="button" >104</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             12분
@@ -115,7 +115,7 @@
         </div>
         <div class="col-sm-6 bus_container_border_general bus_container_border_red">
           <div class="col-sm-7 bus_container_background_general bus_container_background_bus">
-            9001
+            <button type="button" name="button" >9001</button>
           </div>
           <div class="col-sm-5 bus_container_background_general">
             42분

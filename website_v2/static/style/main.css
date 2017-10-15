@@ -1,3 +1,6 @@
+button {
+  border:none; background-color:transparent;
+}
 .bus_container {
   vertical-align: text-bottom;
   height: 15vh;
