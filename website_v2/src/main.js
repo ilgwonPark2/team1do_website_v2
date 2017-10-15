@@ -6,6 +6,7 @@ import App from './App'
 import router from './router'
 Vue.config.productionTip = false
 import '../static/style/bootstrap.min.css'
+import '../static/style/main.css'
 import '../static/scripts/jquery-3.1.1.js'
 import '../static/scripts/bootstrap.min.js'
 import '../static/scripts/axios.min.js'

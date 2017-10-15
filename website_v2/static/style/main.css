@@ -1,4 +1,40 @@
-.img{
+.bus_container {
+  padding-top: 10vh;
+}
+.bus_container_content {
+  visibility: middle;
+  height:13vh;
+  line-height: 13vh;
+}
+.bus_stop_header{
+  background-color: #202328;
+  color : white;
+}
+#bus_stop_id{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 2em;
+  bottom: 0;
+  vertical-align: text-bottom;
+}
+#bus_stop_name{
+  font-size: 4em;
+  font-weight: bold;
+}
+#bus_stop_system{
+  font-size: 2.2em;
+  line-height: 4vh;
+  padding-top: 3vh;
+  right: 0;
+}
+#img_disabled{
+  width: 43%;
+  height: auto;
+  padding-left: 0px;
+}
+
+/*Pervious design*/
+.img {
   position: relative;
   background-image: url(/assets/images/main_bus_stop.png);
   background-repeat-x: no-repeat;
@@ -8,13 +44,14 @@
   background-clip: initial;
   background-color: initial;
   background-size: cover;
-  will-change: transform,top;
+  will-change: transform, top;
   height: 20vh;
   left: 0;
   background-size: 100%!important;
   background-position: 5% 50%!important;
 }
-.img1{
+
+.img1 {
   position: relative;
   background-image: url(/assets/images/approaching.png);
   background-repeat-x: no-repeat;
@@ -24,13 +61,14 @@
   background-clip: initial;
   background-color: initial;
   background-size: cover;
-  will-change: transform,top;
+  will-change: transform, top;
   height: 20vh;
   left: 0;
   background-size: 100%!important;
   background-position: 5% 50%!important;
 }
-.img2{
+
+.img2 {
   position: relative;
   background-image: url(/assets/images/previous_bus_stop.png);
   background-repeat-x: no-repeat;
@@ -40,13 +78,14 @@
   background-clip: initial;
   background-color: initial;
   background-size: cover;
-  will-change: transform,top;
+  will-change: transform, top;
   height: 20vh;
   left: 0;
   background-size: 100%!important;
   background-position: 5% 50%!important;
 }
-.img3{
+
+.img3 {
   position: relative;
   background-image: url(/assets/images/estimated_arriving_time.png);
   background-repeat-x: no-repeat;
@@ -56,33 +95,32 @@
   background-clip: initial;
   background-color: initial;
   background-size: cover;
-  will-change: transform,top;
+  will-change: transform, top;
   height: 300px;
   left: 0;
   background-size: 100%!important;
   background-position: 5% 50%!important;
 }
 
-.img .content{
-     position: absolute;
-     top:48%;
-     left:10%;
-     font-size:5rem;
-     color: white;
-     z-index: 2;
-     text-align: center;
+.img .content {
+  position: absolute;
+  top: 48%;
+  left: 10%;
+  font-size: 5rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
 }
 
-
-.frame_border{
+.frame_border {
   border: 2px solid darkgrey;
   border-radius: 5px;
   height: 370px;
 }
 
-.bus_num{
+.bus_num {
   display: inline-grid;
-align-items: center;
-justify-content: center;
-height: 350px;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
 }
