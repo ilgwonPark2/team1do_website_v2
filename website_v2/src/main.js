@@ -12,7 +12,7 @@ import '../static/scripts/bootstrap.min.js'
 import '../static/scripts/axios.min.js'
 import '../static/scripts/bluebird.min.js'
 /* eslint-disable no-new */
-new Vue({
+var vm = new Vue({
   el: '#app',
   router,
   template: '<App/>',
