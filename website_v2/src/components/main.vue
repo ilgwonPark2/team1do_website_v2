@@ -229,7 +229,7 @@
 
 <script>
 import axios from '../../static/scripts/axios.min.js';
-var ws = new WebSocket("ws://localhost:8081");
+var ws = new WebSocket("ws://211.253.9.191:8081");
 var xmlParser = new DOMParser();
 var xml_data = "";
 var xml_data_websocket = "";
